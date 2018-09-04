@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- DOCTYPE est la première balise obligatoire dans une page HTML : elle désigne le type de document pour le navigateur => ici HTML -->
+<html lang="fr">
+    <!-- la balise HTMLcontient toue la page HTML interprétée par le navigateur, le développeur code TOUT entre la balise ouvrante et la fermante -->
+    <!-- L'attibut LANG de la balise html désigne la langue utilisée côté internaute -->
+ <head>
+    <!-- HEAD contient les paramètreS de la page HTML qui sont invisibles à l'affichage pour l'internaute -->
+    <meta charset="UTF-8">
+        <!-- encodage des caractères pour la gestion de l'affichage des caractères spéciaux -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- contrôler la mise en page sur les navigateurs mobiles , ici le 1.0 signifie qu'il n'y a pas de zoom sur le mobile -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- compatibilité avec le navigateur EDGE -->
+    <meta name="description" content="Ma 1ère page HTML">
+        <!-- description qui apparait sous le nom du site dans un moteur de recherche -->
+    <meta name=" author" content="Mila développeur intégrateur">
+    <link rel="icon" href="img/html5.png">
+        <!-- auteur du site -->
+                    <title>01 Index</title>
+            <!-- titre de la page => s'affiche dans l'onglet du navigateur -->
+        <link rel="stylesheet" href="CSS/01_index.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Eater|Playfair+Display" rel="stylesheet">
+</head>
+
+<body>
+        <!--tout ce qui sera affiché à l'écran s'écrit entre la balise ouvrante et fermante de BODY -->
+        Ma page web qui grace a google fronts a une meilleur police... contenue dans ma balise &lt;body>.
+        <!-- &lt; permet d'afficher une balise html sans l'interpréter -->
+
+        <!--Les titres -->
+        <!-- <h$*6{Titre h$}> -->
+         <h1>Titre h1</h1>
+         <h2>Titre h2</h2>
+         <h3>Titre h3</h3>
+         <h4>Titre h4</h4>
+         <h5>Titre h5</h5>
+         <h6>Titre h6</h6>   
+        
+         
+
+         <!-- Les paragraphes-->
+         <p>Les paragraphes sont entourés d'une balise avec &lt;pre>.</p>
+
+         <pre>un paragraphe préformaté avec &lt;pre>.</pre>
+        
+         <!-- p>lorem*2 -->
+         <p>
+         
+
+         <!-- <br> permet de retouner à la ligne  -->
+         <!-- <hr> permet de faire un saut de ligne -->
+         </p>
+
+         <!-- Les mises en valeur -->
+         <!-- STRONG => en gras -->
+         <p>Bonjour ici c'est <strong>VLG 2018</strong>qui code !</p>
+         <!-- EM => en italique -->
+         <p>Bonjour ici c'est <em>VLG 2018</em>qui code !</p>
+         <!-- MARK => surligné en jaune -->
+         <p>Bonjour ici c'est <mark>VLG 2018</mark>qui code !</p>
+
+            <!-- Les listes -->
+            <!-- à puces -->
+            <ul>
+                <li>chat</li>
+                <li>chien</li>
+                <li>cheval</li>
+            </ul>
+            <!-- numérotées -->
+            <ol>
+                <li>chat</li>
+                <li>chien</li>
+                <li>cheval</li>
+            </ol>
+        <!-- Les liens -->
+        <a href="http://fr.learnlayout.com/">Cliquer ici</a>
+
+        <!-- Les images -->
+        <img src="http://media.giphy.com/media/R97jJCEGEmh0I/giphy.gif" alt="Groot">
+
+    </body>
+
+</html>

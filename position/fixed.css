@@ -1,0 +1,13 @@
+#contenu{
+    border: 2px solid #369;
+    margin: 30px 0 0 0;
+    /* Mettre une marge pour que le contenu soit en dessous, sinon en position fixe la NAV (ici le Menu) se surpperpose au contenu */
+}
+nav{
+    background: #dea5a5;
+    position: fixed; /* Fige en position comme on fige les volets */
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+}

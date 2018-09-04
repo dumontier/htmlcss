@@ -1,0 +1,16 @@
+body{
+    background: rgb(122, 142, 230);
+    font-size: 30px;
+}
+/* Je cible un CLASS avec un point */
+.jaune{
+ background: yellow;
+  font-size: 25px;
+}
+
+/* Je cible un ID avec un # */
+#unique{
+    background: green;
+    color: #fff;/* couleur du texte */
+    font-size: 20px;/* taille de la police */
+}

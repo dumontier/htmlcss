@@ -1,0 +1,44 @@
+#contenu{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid darkolivegreen;
+
+}
+header{
+    background-color: #8e3557;
+    /* EMMET background-color => bgc + tab */
+    height: 100px;
+}
+nav{
+    background-color: skyblue;
+    height: 30px;
+}
+main{
+    background-color: #787746;
+    height: 500px;
+    margin: 20px;
+}
+#a, #b, #c, #d{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+#a{
+    background-color: red;
+}
+#b{
+    background-color: #787746;
+}
+#c{
+    background-color: #e6e2af;
+}
+#d{
+    background-color: aqua;
+}
+footer{
+    background-color: yellowgreen;
+    height: 100px;
+}
+.clear{
+    clear: both;
+}

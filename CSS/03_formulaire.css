@@ -1,0 +1,6 @@
+label{
+    float: left; /*FLOAT => j'aligne un élément ici sur la gauche (balise "inline")( contrairement à la balise de type "bloc" qui prend toute la largeure de l'écran)*/
+    width: 190px; /*Largeur de mon label*/
+    color: #0f0; /*couleur du texte*/
+    background: #4b0082; /*couleur de fond en code hexadécimal ou RVB*/
+}
